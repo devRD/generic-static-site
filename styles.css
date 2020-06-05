@@ -1,0 +1,91 @@
+body{
+  background: #212529;
+}
+.container {
+  margin-top: 2em;
+}
+.carousel{
+  padding-top: 2em;
+}
+.content__img{
+  border: 2px solid #CCC;
+}
+.content__text{
+  margin-top: 1em;
+  color: #CCC;
+}
+.card{
+  margin-bottom: 1em;
+}
+.card-img-top {
+  height: 200px;
+}
+.footer{
+  border-top: 1px solid #CCC;
+  color: #CCC;
+}
+.footer__cont{
+  border-top: 1px solid white;
+}
+.footer__img{
+  width: 30px;
+  height: 30px;
+}
+.footer__cont .row .col-sm-6{
+  margin-top: 1em;
+  color: #CCC;
+}
+.footer__text{
+  margin-top: 1em;
+}
+.footer__links a{
+  color: #CCC;
+  display: block;
+}
+.footer__social .fab{
+  font-size: 1.5em;  
+  padding: 2px;
+}
+.fa-facebook{
+  color: #1877F2; 
+}
+.fa-twitter{
+  color: #1DA1F2; 
+}
+.fa-google{
+  color: #4285f4; 
+}
+.fa-linkedin-in{
+  color: #007BB5; 
+}
+.footer__newsletter{
+  color: #CCC;
+}
+@media all and (min-width: 481px) and (max-width: 1280px) {
+ .carousel .carousel-item {
+   height: 500px;
+ }
+ .carousel-item img{
+   position: absolute;
+   object-fit:cover;
+   top: 0;
+   left: 0;
+   height: 500px;
+  }
+}
+@media all and (max-width: 480px) {
+   .nav-item{
+      text-align: center;
+    }
+   .carousel .carousel-item {
+     height: 200px;
+   }
+    
+   .carousel-item img{
+     position: absolute;
+     object-fit:cover;
+     top: 0;
+     left: 0;
+     min-height: 200px;
+    }
+}
