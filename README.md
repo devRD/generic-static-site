@@ -1,7 +1,7 @@
 # Static Website Bootstrap
  This is a static website created with HTML, CSS, Bootstrap 4 and Font Awesome 5. It has been made completely responsive keeping in mind the various components like the carousel, content image, the cards, as well as the footer present in the page.
  
- # Setup and run
+## Setup and run
  
  To setup the project locally follow the given instructions:
  
